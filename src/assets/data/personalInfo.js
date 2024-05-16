@@ -1,44 +1,56 @@
-import satafood from '../images/projects/satafood.png'
-import natours from '../images/projects/natours.png'
-import carApp from '../images/projects/carApp.png'
-import book from '../images/projects/book-store.png'
+import satafood from "../images/projects/satafood.png";
+import natours from "../images/projects/natours.png";
+import carApp from "../images/projects/carApp.png";
+import book from "../images/projects/book-store.png";
 
-
-import news1 from '../images/example/news1.png'
-import news2 from '../images/example/news2.png'
-import news3 from '../images/example/news3.png'
-import news4 from '../images/example/news4.png'
-import news5 from '../images/example/news5.png'
-import news6 from '../images/example/news6.png'
-import news7 from '../images/example/news7.png'
-import news8 from '../images/example/news8.png'
+import news1 from "../images/example/news1.png";
+import news2 from "../images/example/news2.png";
+import news3 from "../images/example/news3.png";
+import news4 from "../images/example/news4.png";
+import news5 from "../images/example/news5.png";
+import news6 from "../images/example/news6.png";
+import news7 from "../images/example/news7.png";
+import news8 from "../images/example/news8.png";
 
 ///////////////////////////////////////
-import commerce1 from '../images/example/commerce1.png'
-import commerce2 from '../images/example/commerce2.png'
-import commerce3 from '../images/example/commerce3.png'
-import commerce4 from '../images/example/commerce4.png'
-import commerce5 from '../images/example/commerce5.png'
+import commerce1 from "../images/example/commerce1.png";
+import commerce2 from "../images/example/commerce2.png";
+import commerce3 from "../images/example/commerce3.png";
+import commerce4 from "../images/example/commerce4.png";
+import commerce5 from "../images/example/commerce5.png";
 //////////////////////////////////////////////
-import devops1 from '../images/example/SCREENSHOT01.png'
-import devops2 from '../images/example/SCREENSHOT02.png'
-import devops3 from '../images/example/SCREENSHOT03.png'
-import devops4 from '../images/example/SCREENSHOT04.png'
-import devops5 from '../images/example/SCREENSHOT05.png'
-import devops6 from '../images/example/SCREENSHOT06.png'
-import devops7 from '../images/example/SCREENSHOT07.png'
-import devops8 from '../images/example/SCREENSHOT08.png'
-import devops9 from '../images/example/SCREENSHOT09.png'
-import devops10 from '../images/example/SCREENSHOT10.png'
-import devops11 from '../images/example/SCREENSHOT11.jpg'
-import devops12 from '../images/example/SCREENSHOT12.jpg'
-import { certificatesData } from './certificates'
+import devops1 from "../images/example/SCREENSHOT01.png";
+import devops2 from "../images/example/SCREENSHOT02.png";
+import devops3 from "../images/example/SCREENSHOT03.png";
+import devops4 from "../images/example/SCREENSHOT04.png";
+import devops5 from "../images/example/SCREENSHOT05.png";
+import devops6 from "../images/example/SCREENSHOT06.png";
+import devops7 from "../images/example/SCREENSHOT07.png";
+import devops8 from "../images/example/SCREENSHOT08.png";
+import devops9 from "../images/example/SCREENSHOT09.png";
+import devops10 from "../images/example/SCREENSHOT10.png";
+import devops11 from "../images/example/SCREENSHOT11.jpg";
+import devops12 from "../images/example/SCREENSHOT12.jpg";
+import { certificatesData } from "./certificates";
 
-const newsPics = [news7, news1, news2, news3, news4, news5, news6, news8]
+const newsPics = [news7, news1, news2, news3, news4, news5, news6, news8];
 const news = newsPics[Math.floor(Math.random() * newsPics.length)];
-const commercePics = [commerce1, commerce2, commerce3, commerce4, commerce5]
+const commercePics = [commerce1, commerce2, commerce3, commerce4, commerce5];
 const commerce = commercePics[Math.floor(Math.random() * commercePics.length)];
-const devopsPics = [devops1, devops2, devops3, devops4, devops5, devops6, devops7, devops8, devops9, devops10, devops11, devops12]
+const devopsPics = [
+  devops1,
+  devops2,
+  devops3,
+  devops4,
+  devops5,
+  devops6,
+  devops7,
+  devops8,
+  devops9,
+  devops10,
+  devops11,
+  devops12,
+];
 const devops = devopsPics[Math.floor(Math.random() * devopsPics.length)];
 
 export const personalInfo = {
@@ -74,7 +86,7 @@ export const personalInfo = {
       schoolName: `Port Said University`,
       degree: `Bachelor's Degree In Communication Engineering`,
       speciality: `The Faculty of Engineering`,
-      city: "Alexandria",
+      city: "Port Said",
       year: {
         start: "2016",
         end: "2021",
@@ -89,8 +101,8 @@ export const personalInfo = {
       company: "Sata Group Technology",
       type: "full-time",
       year: {
-        start: "2023",
-        end: "2024",
+        start: "May 2023",
+        end: "Currently Working",
       },
       city: "Cairo",
       description: [
@@ -98,25 +110,43 @@ export const personalInfo = {
         "problem-solving",
         "Daily website maintenance.",
         "Custom API integrations.",
-        "Creating Restaurant management system, point of sale, inventory management system and webscrapping app"
+        "Creating Restaurant management system, point of sale, inventory management system and webscrapping app",
       ],
     },
-    // {
-    //   id: "job5",
-    //   title: "Senior Sales Agent",
-    //   company: "ALEEA TRADING S.R.L.",
-    //   year: {
-    //     start: "2014",
-    //     end: "2014",
-    //   },
-    //   city: "Bucharest",
-    //   description: [
-
-    //     "Worked closely with the owner to improve quality standards for customer satisfaction.",
-    //     "Was trusted with special projects to help my team sell better and be more motivated.",
-    //     "Maintained good connections with all suppliers in the market.",
-    //   ],
-    // },
+    {
+      id: "job2",
+      title: "Backend Developer",
+      company: "ELARABYGROUP CO. FOR TRD.MANUF",
+      type: "full-time",
+      year: {
+        start: "August 2022",
+        end: "April 2023",
+      },
+      city: "Cairo",
+      description: [
+        "Create server-side apps",
+        "Daily website maintenance.",
+        "Custom API integration.",
+        "problem-solving"
+      ],
+    },
+    {
+      id: "job3",
+      title: "Backend Development internship",
+      company: "ELARABYGROUP CO. FOR TRD.MANUF",
+      type: "full-time",
+      year: {
+        start: "May 2022",
+        end: "August 2022",
+      },
+      city: "Cairo",
+      description: [
+        "Learning Api integration.",
+        "Making CRUD operations.",
+        "Daily website maintenance.",
+        "problem-solving."
+      ],
+    }
     // {
     //   id: "job6",
     //   title: "Pawnbroker Assistant",
@@ -157,12 +187,27 @@ export const personalInfo = {
       {
         id: "skills2",
         category: "Back-End",
-        languages: ["Nest.JS", "Node.JS", "REST APIs", "GraphQl", "Websocket", "RabbitMQ", "Swagger"],
+        languages: [
+          "Nest.JS",
+          "Node.JS",
+          "REST APIs",
+          "GraphQl",
+          "Websocket",
+          "RabbitMQ",
+          "Swagger",
+        ],
       },
       {
         id: "skills3",
         category: "Databases",
-        languages: ["PostgreSQL", "MySql", "mongodb", "mongoose", "migration", "orm (typeorm , prisma)"],
+        languages: [
+          "PostgreSQL",
+          "MySql",
+          "mongodb",
+          "mongoose",
+          "migration",
+          "orm (typeorm , prisma)",
+        ],
       },
       {
         id: "skills4",
@@ -239,9 +284,6 @@ export const personalInfo = {
       using NodeJs, SQL, Mocha Technology, auditing, winston logging, jwt for authentication ...
       creating a sample backend for buying products.`,
     },
-
-
-
   ],
   hobbies: [
     "Technology",
